@@ -1,1 +1,10 @@
+Using clustering to take the X data (the features/pixels) of the MNIST dataset, 
+and group it into clusters.
+By not using the targets from the dataset at all.
 
+Then  take the images, ditch their labels, 
+and do clustering to group them. You don't know which cluster is which digit. 
+then labelled them, or look at each one and say, "looks like 7s", then assign that group a label of 7.
+Used GMM to build a function that can generate a new digit from the information in the cluster.
+Write a function, writeNumber,
+that can take in an integer 
